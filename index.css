@@ -1,0 +1,65 @@
+.form {
+  border-radius: 20px;
+  width: 700px;
+  height: 800px;
+  background-image: linear-gradient(RED, rgb(50, 173, 5), rgb(255, 0, 0));
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.tab-group {
+  
+  font-size: 1.5rem;
+
+  margin-top: 20px;
+}
+
+.field-wrap {
+  border: 2px SOLID rgba(255, 170, 0, 0.93);
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.login {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(255, 157, 0);
+}
+
+.signup {
+  background-color: rgb(101, 243, 0);
+  border: 2px solid green;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(255, 234, 0);
+}
+.forgot {
+  font-size: 1.2rem;
+  color: rgb(255, 204, 0);
+  background-color: rgba(221, 81, 0, 0.257);
+}
+
+button {
+  background-color: rgba(9, 255, 0, 0.731);
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;font-size: 1rem;font-weight: 500;
+}
+button:hover {
+  background-color: rgb(9, 255, 0);
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;font-size: 1rem;font-weight: 500;cursor: pointer;
+}
+.singupurl,.loginurl,.registerlogin{color: white;text-decoration: none;}
